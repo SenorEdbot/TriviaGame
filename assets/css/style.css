@@ -4,3 +4,7 @@
 .answers {
     display: none;
 }
+#answerImage {
+    max-height: 60%;
+    width: auto;
+}
