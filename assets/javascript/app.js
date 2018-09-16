@@ -12,7 +12,7 @@ $(document).ready(function(){
         "Which song broke a Guinness Book of World Record?",
         "Who did he call when he needed to get Clean?",
         "How many consecutive #1 albums has he released?",
-        "Who of the follow has he not yet ended their career?"
+        "Who of the following has he not yet ended their career?"
     ];
     //Setting up the Answer Arrays (4)
     var answerArr1 = [
@@ -125,7 +125,7 @@ $(document).ready(function(){
                 countdownClock.reset();
                 correctAnswer = false;
                 gameLogic.dispCorrectAns();
-                setTimeout(gameLogic.questionIncrement,2000);
+                setTimeout(gameLogic.questionIncrement,6000);
             }
         },
         timeConverter: function(t) {
@@ -205,7 +205,7 @@ $(document).ready(function(){
                 countdownClock.reset();
                 correctAnswer = true;
                 gameLogic.dispCorrectAns();
-                setTimeout(gameLogic.questionIncrement,2000);
+                setTimeout(gameLogic.questionIncrement,6000);
             } else {
                 incorrect += 1;
                 infoText = "Uh Oh! Incorrect."
@@ -213,7 +213,7 @@ $(document).ready(function(){
                 countdownClock.reset();
                 correctAnswer = false;
                 gameLogic.dispCorrectAns();
-                setTimeout(gameLogic.questionIncrement,2000);
+                setTimeout(gameLogic.questionIncrement,6000);
             }
         },
         questionIncrement: function(){
