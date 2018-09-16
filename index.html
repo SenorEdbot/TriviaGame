@@ -13,24 +13,30 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row" id="titleDiv">
-      <h2>Eminem Trivia</h2>
+  <div class="container h-75">
+    <img src="assets/images/title.png" alt="Eminem Logo" id="titleImage">
+    <div class="content">
+      <div class="row" id="titleDiv">
+        <h2>Eminem Trivia</h2>
+      </div>
+      <button id="startButton">START</button>
+      <div class="row" id="timerDiv"></div>
+      <div class="row" id="questionDivRow">
+        <p class="text-left" id="questionDiv"></p>
+      </div>
+      <div class="row" id="correctAnsDiv"></div>
+      <br />
+      <div class="row">
+        <img src="" class="rounded float-left" id="answerImage">
+      </div>
+      <form>
+        <button type="submit" class="btn text-center answers" id="answer1"></button><br />
+        <button type="submit" class="btn answers" id="answer2"></button><br />
+        <button type="submit" class="btn answers" id="answer3"></button><br />
+        <button type="submit" class="btn answers" id="answer4"></button><br />
+      </form>
+        <button id="resetButton">START OVER?</button>
     </div>
-    <button id="startButton">START</button>
-    <div class="row" id="timerDiv"></div>
-    <div class="row" id="questionDiv"></div>
-    <div class="row" id="correctAnsDiv"></div>
-    <div class="row">
-      <img src="" class="rounded float-left" id="answerImage">
-    </div>
-    <form>
-      <button type="submit" class="btn answers" id="answer1"></button><br />
-      <button type="submit" class="btn answers" id="answer2"></button><br />
-      <button type="submit" class="btn answers" id="answer3"></button><br />
-      <button type="submit" class="btn answers" id="answer4"></button><br />
-    </form>
-      <button id="resetButton">START OVER?</button>
   </div>
 
 

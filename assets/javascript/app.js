@@ -9,9 +9,9 @@ $(document).ready(function(){
         "What is the name of the first rap group he joined?",
         "What is the name of his Ex-Wife?",
         "What is the name of his Daughter?",
-        "Which song broke a Guinness Book of World Record for the most words in a song?",
+        "Which song broke a Guinness Book of World Record?",
         "Who did he call when he needed to get Clean?",
-        "How many consecutive number one albums has he released (UK Albums Chart)?",
+        "How many consecutive #1 albums has he released?",
         "Who of the follow has he not yet ended their career?"
     ];
     //Setting up the Answer Arrays (4)
@@ -105,6 +105,7 @@ $(document).ready(function(){
         },
         start: function() {
             if(!clockRunning) {
+                timerDiv.text("30");
                 cdClockID = setInterval(countdownClock.count, 1000);
                 clockRunning = true;
             }
