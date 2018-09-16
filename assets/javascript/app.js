@@ -178,7 +178,7 @@ $(document).ready(function(){
                     correctAnsDiv.text("The correct answer was: " + correctAnswerArr[7]);
                     break;
                 case 8:
-                    answerImage.attr('src','assets/images/image9.jpg').attr('alt',"A picture of a Guardian article showing Eminem's latest record");
+                    answerImage.attr('src','assets/images/image9.JPG').attr('alt',"A picture of a Guardian article showing Eminem's latest record");
                     correctAnsDiv.text("The correct answer was: " + correctAnswerArr[8]);
                     break;
                 case 9:
